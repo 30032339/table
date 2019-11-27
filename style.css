@@ -1,22 +1,46 @@
-table, th, td {
-    border: 3px solid black;
-    border-collapse: collapse;
-  }
-th, td {
-    padding: 15px;
-  }
-th {
-    text-align: left;
-    background-color: antiquewhite
-  }
-table {
+.header {
+    background-color: orange;
     width: 100%;
-    border-spacing: 5px;
-    
+    height: 50px;
+    line-height: 50px;
   }
-h1 {
-    text-align: center;
-}
-div{
-    background-color: brown
-}
+  
+  .content-image {
+    float: left;
+    padding: 20px;
+  }
+  
+  .container-float {
+    float: left;
+    width: 50%;
+    
+    border: 1px solid #222;
+    box-sizing: border-box;
+  }
+  
+  .containers {
+    clear: both;
+    padding: 20px;
+  }
+  
+  .size {
+    width:200px; 
+    height: 300px;
+  }
+  
+  .divs {
+    clear: both;
+    margin: 20px auto;
+  }
+  
+  .red {
+    background:red; 
+  }
+  
+  .green {
+    background:green; 
+  }
+  
+  .blue {
+    background:blue; 
+  }
